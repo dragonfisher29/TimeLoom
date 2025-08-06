@@ -19,13 +19,25 @@
         android:layout_marginBottom="100dp"
         android:text="@string/default_timer"
         android:textColor="@android:color/black"
-        android:textSize="48sp"
+        android:textSize="60sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/buttonContainer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/session_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/session_label"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/timer_text" />
+
 
     <LinearLayout
         android:id="@+id/buttonContainer"
